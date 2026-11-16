@@ -1,7 +1,7 @@
 CREATE DATABASE rpg_manager;
 USE rpg_manager;
 
--- ==========================================================
+
 -- 2. CREACIÓN DE TABLAS PRINCIPALES
 -- ==========================================================
 
