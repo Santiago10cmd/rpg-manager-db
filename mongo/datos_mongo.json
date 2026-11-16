@@ -1,0 +1,45 @@
+{
+  "nombre": "Thorgar",
+  "clase": "Guerrero",
+  "nivel": 15,
+  "experiencia": 12500,
+  "atributos": {
+    "vida_maxima": 250,
+    "vida_actual": 250,
+    "ataque": 45,
+    "defensa": 30,
+    "energia": 100
+  },
+  "oro": 1200.50,
+  "creado_en": "2026-01-10T10:00:00.000Z",
+  "inventario": [
+    {
+      "item_id": "item_sword_01",
+      "nombre": "Espada de Hierro",
+      "tipo": "arma",
+      "rareza": "comun",
+      "valor": 150,
+      "cantidad": 1
+    },
+    {
+      "item_id": "item_pot_hp",
+      "nombre": "Poción de Vida",
+      "tipo": "consumible",
+      "rareza": "comun",
+      "valor": 50,
+      "cantidad": 3
+    }
+  ],
+  "misiones": [
+    {
+      "quest_id": "q_goblin_hunt",
+      "titulo": "Caza de Goblins",
+      "dificultad": "facil",
+      "recompensa": {
+        "oro": 100,
+        "xp": 250
+      },
+      "estado": "completada"
+    }
+  ]
+}
