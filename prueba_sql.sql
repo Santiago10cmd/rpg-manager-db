@@ -21,3 +21,16 @@ SELECT c.id, c.name, c.experience, c.gold, cq.status
 FROM characters c
 JOIN character_quests cq ON c.id = cq.character_id
 WHERE c.id = 1 AND cq.quest_id = 1;
+
+SELECT name, char_class, level
+FROM characters
+WHERE level >= 5
+ORDER BY level DESC;
+
+SELECT * 
+FROM items 
+WHERE item_type = 'Arma';
+
+SELECT * 
+FROM items 
+WHERE item_name LIKE '%Poción%';
